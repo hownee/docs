@@ -1,0 +1,28 @@
+---
+title: "Check Privilege Escalation Protection"
+description: "Ensure unauthorized role escalation is prevented."
+---
+
+
+## Objective
+Ensure unauthorized users cannot escalate their privileges or access admin settings, and that all such attempts are logged and denied.
+
+## Prerequisites
+- You must have a guest or non-admin account for testing.
+
+## Steps
+1. Log in to the Papyrus app as a guest or non-admin user.
+2. Attempt to access admin settings or perform admin-only actions (e.g., module management, user management).
+	- _Screenshot needed: Attempted access to admin settings as a non-admin._
+3. Observe the system's response. The action should be denied and logged.
+	- _Video recommended: Record the attempt and the system's denial response._
+4. If possible, review the system logs or audit trail for the recorded attempt.
+	- _Screenshot needed: Log entry or audit trail showing the denied action._
+
+## Expected Results
+- Unauthorized actions are blocked and the user is shown an appropriate error message.
+- The attempt is logged in the system for auditing.
+- If privilege escalation is possible, document the steps and capture screenshots or video.
+
+---
+**Tip:** If you encounter any issues, please document the error message and steps taken, and attach screenshots or a video for troubleshooting.
